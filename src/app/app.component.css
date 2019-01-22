@@ -1,0 +1,11 @@
+div.header-links{
+    float: left;
+    margin: 1em;
+}
+.after-box {
+    clear: left;
+}
+
+a {
+    text-decoration: none;
+}
