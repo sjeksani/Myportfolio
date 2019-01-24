@@ -15,6 +15,7 @@
     "zone.js": "^0.8.26"
   },
   "scripts": {
+    "deploy": "ng build --base-href https://sjeksani.github.io/Myportfolio/ && angular-cli-ghpages --branch gh-pages",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
