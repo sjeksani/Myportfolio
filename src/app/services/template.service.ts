@@ -28,4 +28,3 @@ class TemplateService {
 
 }
 export var templates = new TemplateService();
-console.log("templates is here" , templates);

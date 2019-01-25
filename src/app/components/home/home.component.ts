@@ -20,21 +20,3 @@ export class HomeComponent {
 
     }
 
-    // carousel() {
-
-    //     let x = (<HTMLElement[]><any>document.getElementsByClassName('mySlides'))[0];
-
-    //     // let x : Array<HTMLElement> = [];
-    //     // x = document.getElementsByClassName('mySlides');
-    //     for (let i = 0; i < x.length; i++) {
-    //     x[i].style.display = "none"; 
-    // }
-    // this.slideIndex++;
-    // if (this.slideIndex > x.length) {
-    //     this.slideIndex = 1
-    // } 
-    // x[this.slideIndex-1].style.display = "block"; 
-    // setTimeout(this.carousel, 2000); 
-
-    // }
-

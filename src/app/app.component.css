@@ -1,6 +1,6 @@
 div.header-links{
     float: left;
-    margin: 1em;
+    margin: 2em;
 }
 .after-box {
     clear: left;
@@ -8,4 +8,67 @@ div.header-links{
 
 a {
     text-decoration: none;
+}
+
+
+#header-row1 {
+    background-color: #1e90ff;
+    padding: 8px;
+}
+
+#header-row2 {
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#envelope-icon {
+    color: white;
+    size: 3em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+}
+
+.dropbtn {
+    background-color: #1e90ff;
+    color: white;
+    padding: 3px 10px 10px 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 15px;
+    color: black;
+    padding: 2px 0px 5px 5px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdown-content a:hover {
+    background-color: #1e90ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1e90ff;
 }
