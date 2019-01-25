@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Angular App</title>
+  <base href="https://sjeksani.github.io/Myportfolio/" id="base-href">  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Poiret+One" rel="stylesheet">
+</head>
+
+<body>
+  <my-app>loading</my-app>
+  <div id="_templates">
+    <script type="text/ng-template" id="rootcomponent.html">
+      
+    
+            <div class="header-container">
+               
+                    <div class="header-links">
+                        <a routerLink="/home" routerLinkActive="active">Sharath Jeksani</a>
+                    </div>
+                    <div class="header-links">
+                        <a routerLink="/home" routerLinkActive="active">Home</a>
+                    </div>
+                    <div class="header-links">
+                        <a routerLink="/about">About</a>
+                    </div>
+                    <div class="header-links">
+                        <a routerLink="/skills">Skills</a>
+                    </div>
+                    <div class="header-links">
+                        <a routerLink="/experience">Experience</a>
+                    </div>
+                    <div class="header-links">
+                        <a routerLink="/contact">Contact</a>
+                    </div>
+                    <div class="after-box">
+                    </div>
+              
+            </div>
+
+            <router-outlet></router-outlet>
+            
+      </script>
+
+    <script type="text/ng-template" id="home-component.html">
+        <div class="home_maincontent">
+            <div class="description">
+                <h1 id="SJ_title">FRONT END ENGINEER</h1>
+                <h4>Hello, I am Sharath Jeksani. I am a senior front end developer with over 9 years of proven experience in the tech filed.
+                My Primary skills are JavaScript, ES5/ES6, AngularJS, Angular 2+, TypeScript, AJAX, jQuery, Bootstrap. Yes, I am an 
+                    ADA Specialist too ! (To those who doesn't know accessibility, I give voiceover to the people with disabilities using
+                    ARIA attributes)
+                </h4>
+            </div>
+            <div>
+                <img class="myimages" src="assets/images/mypicture.jpg">
+            </div>
+        </div>
+      </script>
+
+
+    <script type="text/ng-template" id="my-skills.html">
+        <p>My Skills</p>
+      </script>
+
+
+    <script type="text/ng-template" id="about-component.html">
+        <p>About Me</p>
+        <p>my name is sharath jeksani</p>
+      </script>
+
+    <script type="text/ng-template" id="experience-component.html">
+        <p>My Experience</p>
+    </script>
+
+    <script type="text/ng-template" id="contact-component.html">
+      <p>My Contact</p>
+    </script>
+
+  </div>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+
+</html>
