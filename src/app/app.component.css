@@ -26,6 +26,10 @@ a {
     size: 3em;
 }
 
+#my-name {
+    font-family: 'Poiret One', cursive;
+}
+
 a:hover {
     text-decoration: none;
 }
