@@ -6545,6 +6545,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var HomeComponent = /** @class */ (function () {
     function HomeComponent() {
+        this.items = [];
+        this.items = [
+            { name: 'assets/images/mypicture.jpg' },
+            { name: 'assets/images/img.jpeg' }
+        ];
     }
     HomeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -6638,7 +6643,6 @@ var TemplateService = /** @class */ (function () {
     return TemplateService;
 }());
 var templates = new TemplateService();
-console.log("templates is here", templates);
 
 
 /***/ }),
