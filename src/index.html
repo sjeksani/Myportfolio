@@ -29,9 +29,9 @@
                                             <div class="dropdown">
                                                 <button class="glyphicon glyphicon-option-vertical dropbtn"></button>
                                                     <div class="dropdown-content">
-                                                        <a href="https://github.com/sjeksani" target="_blank">GitHub</a>
-                                                        <a href="https://www.linkedin.com/in/sharath-jeksani" target="_blank">Linkedin</a>
-                                                        <a href="https://twitter.com/sjeksanii" target="_blank">Twitter</a>
+                                                        <a href="https://github.com/sjeksani" target="_blank"><span class="fa fa-github"></span>GitHub</a>
+                                                        <a href="https://www.linkedin.com/in/sharath-jeksani" target="_blank"><span class="fa fa-linkedin"></span>Linkedin</a>
+                                                        <a href="https://twitter.com/sjeksanii" target="_blank"><span class="fa fa-twitter"></span>Twitter</a>
                                                     </div>
                                             </div>
                                         </span>
@@ -70,57 +70,44 @@
 
 
             <footer class="footer">
-                    <div class="top">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h4>Address</h4>
-                                    <p>Fremont, California<br>USA</p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <h4>Connect</h4>
-                                    <div class="social-icons">
-                                        <a href="https://github.com/sjeksani" target="_blank" class="btn btn-social-icon btn-github">
-                                            <span class="fa fa-github"></span>
-                                        </a>
-
-                                        <a href="https://www.linkedin.com/in/sharath-jeksani" target="_blank" class="btn btn-social-icon btn-linkedin">
-                                            <span class="fa fa-linkedin"></span>
-                                        </a>
-
-                                        <a href="https://twitter.com/sjeksanii" target="_blank" class="btn btn-social-icon btn-twitter">
-                                                <span class="fa fa-twitter"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <h4>Contact</h4>
-                                    <h4>
-                                        Mail: <a href="mailto:sharathjeksani@gmail.com" style="color:white">sharathjeksani@gmail.com</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    <div class="bottom">Copyright © Sharath Jeksani. All Rights Reserved.</div>
-                </footer>
+                <div class="copyright">Copyright © Sharath Jeksani. All Rights Reserved.</div>
+            </footer>
             
       </script>
 
         <script type="text/ng-template" id="home-component.html">
-        <div class="home_maincontent">
-            <div class="description">
-                <h1 id="SJ-title">FRONT END ENGINEER</h1>
-                <h4>Hello, I am Sharath Jeksani. I am a senior front end developer with over 9 years of proven experience in the tech field.
-                My Primary skills are JavaScript, ES5/ES6, AngularJS, Angular 2+, TypeScript, AJAX, jQuery, Bootstrap. Yes, I am an 
-                    ADA Specialist too ! (To those who doesn't know accessibility, I give voiceover to the people with disabilities using
-                    ARIA attributes)
-                </h4>
-            </div>
+        <div class="home-maincontent">
             
-            <div>
-                <img class="myimages" src="assets/images/mypicture.jpg">
-            </div>
+            <div class="card">
+                <img src="assets/images/mypicture.jpg" alt="sharath-jeksani" style="width:100%">
+                <h1 class="title uppercase">Sharath Jeksani</h1>
+                <h4 class="role uppercase">Front End Engineer</h4>
+                
+                <ul class="list-unstyled mb-0">
+                   
+                    <a href="https://github.com/sjeksani" target="_blank" class="icons">
+                        <span class="fa fa-github"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sharath-jeksani" target="_blank" class="icons">
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                    <a href="mailto:sharathjeksani@gmail.com" class="icons">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a href="https://twitter.com/sjeksanii" target="_blank" class="icons">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </ul>
+                <p><button mat-raised-button color="primary">Contact</button></p>
+              </div>
+
+              <div class="description">
+                    <h4>Hi, Good to see you here! I am Sharath Jeksani. I am a senior front end developer with over 9 years of proven experience in the tech field.
+                    My Primary skills are JavaScript, ES5/ES6, AngularJS, Angular 2+, TypeScript, AJAX, jQuery, Bootstrap. Yes, I am an 
+                        ADA Specialist too :)
+                    </h4>
+                </div>
+
         </div>
 
       </script>
