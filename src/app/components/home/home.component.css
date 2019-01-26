@@ -1,10 +1,9 @@
 
-#SJ_title {
+#SJ-title {
     color: teal;
     font-family: 'Francois One', sans-serif;
+    margin: -35px 0px 30px 0px;
 }
-
-
 
 .home_maincontent {
     display: inline-flex;
@@ -17,6 +16,6 @@
 
 img {
     margin-left: 100px;
-    width: 400px;
+    width: 450px;
     height: 300px;
 }
