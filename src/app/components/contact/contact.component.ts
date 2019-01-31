@@ -7,6 +7,5 @@ template: templates.GetTemplate('contact-component.html')
 
 export class ContactComponent {
     constructor() {
-
     }
 }
