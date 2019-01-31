@@ -7,6 +7,5 @@ template: templates.GetTemplate('experience-component.html')
 
 export class ExperienceComponent {
     constructor() {
-
     }
 }
