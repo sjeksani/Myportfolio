@@ -7,6 +7,5 @@ template: templates.GetTemplate('about-component.html')
 
 export class AboutComponent {
     constructor() {
-
     }
 }
